@@ -1,0 +1,46 @@
+<% include header %>
+<div class="container">
+    <div id="img1">
+        <img src="/images/developer.png"/>
+    </div>
+     <div id="img2">
+        <img src="/images/thedesigner.png"/>  
+    </div>
+        <form action="/checkin" method="POST" class="visitform" id="visit_form" >
+            <div id="visit-div1">
+            <p class="head">
+                Visitor Details
+            </p>
+            <p class="name">
+                <input name="name" type="text" class="visit-input" required placeholder="Name" id="name" />
+            </p>
+            <p class="email">
+                <input name="email" type="email" required class="visit-input" id="email" placeholder="Email" />
+            </p>
+            <p class="phone">
+                <input name="phone" type="text" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number" required class="visit-input" id="phone" placeholder="Contact No." />
+            </p>
+            
+            </div>
+            <div id="visit-div2">
+            <p class="head">
+                Host Details
+            </p>
+            <p class="name">
+                <input name="hname" type="text" class="visit-input" required placeholder="Host's Name" id="name" />
+            </p>
+            <p class="email">
+                <input name="hemail" type="email" required class="visit-input" id="email" placeholder="Host's Email" />
+            </p>
+            <p class="phone">
+                <input name="hphone" type="text" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number" required class="visit-input" id="phone" placeholder="Host's Contact No." />
+            </p>
+            
+            </div>
+            <div class="submit">
+                <button type="submit" class="button-blue">Checkin</button>
+                <div class="ease"></div>
+            </div>
+        </form>
+</div>
+<% include footer %>

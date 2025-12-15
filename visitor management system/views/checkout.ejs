@@ -1,0 +1,35 @@
+<% include header %>
+<div class="container">
+    <div id="img1">
+        <img src="/images/developer.png"/>
+    </div>
+     <div id="img2">
+        <img src="/images/thedesigner.png"/>
+    </div>
+    
+     <% if(flag==2){%>                          <!--   Success/Error Messages -->
+      <div class="alert alert-danger">
+        <strong>Something went wrong!</strong> No user with this email-id. <a href="/" class="alert-link">Go to Home page.</a>
+        </div>
+        <%}%>  
+      
+        <% if(flag==1){%>
+            <div class="alert alert-warning">
+                    <strong>Something went wrong!</strong> This user has already checked out.
+            </div>
+            <%}%>    
+    <div id="visit-div1" style="position:absolute; left:850px; top:150px;">
+        <form action="/checkout" method="POST" class="visitform" id="visit_form"  >
+           
+            <p class="head" >Your Email ID</p>
+            
+            <p class="email">
+                <input name="email" type="email" required class="visit-input" id="email" placeholder="Email" />
+            </p>
+                <button type="submit" class="button-blue">Checkout</button>
+                <div class="ease"></div>
+            
+            </div>
+        </form>
+</div>
+<% include footer %>

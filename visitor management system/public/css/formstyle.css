@@ -1,0 +1,241 @@
+
+#visit-div1 {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:35px;
+	width: 350px;
+	float: left;
+	top: 20%;
+	left: 40%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  border-radius: 7px;
+  
+}
+#visit-div2 {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:35px;
+	width: 350px;
+	float: left;
+	top: 20%;
+	left: 67%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  border-radius: 7px;
+  
+}
+
+.visitform .visit-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.visitform .visit-input:focus{
+	background: #fff;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+
+
+.visitform  #name{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform  #name:focus{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform  #email{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform  #email:focus{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.visitform  #phone{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mobile.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform  #phone:focus{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mobile.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform #comment{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.visitform  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.visitform  input:hover, .visitform  textarea:hover,
+.visitform  input:focus, .visitform  textarea:focus {
+	background-color:#e6e6e6;
+}
+
+.button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.visitform  .submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease;
+}
+.head{
+	color:#3c3c3c;
+	font-size:24px;
+	text-align: center;
+}
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+.submit{
+	background-color:rgba(72,72,72,0.4);
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	width: 250px;
+	float: left;
+	left: 57%;
+	top:75%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  border-radius: 7px;
+}
+#img1{
+	width: 190px;
+	float: left;
+	top: 25%;
+	left: 5%;
+	position: absolute;
+ 
+}
+#img2{
+	width: 190px;
+	float: left;
+	top: 25%;
+	left: 83%;
+	position: absolute;
+  
+}
+
+.example_f {
+	border-radius: 4px;
+	background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.4s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  .example_f span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.4s;
+  }
+  .example_f span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  .example_f:hover span {
+	padding-right: 25px;
+  }
+  .example_f:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+  .button_cont1{
+	width: 10px;
+	float: left;
+	left:45%;
+	top:50%;
+	position: absolute;
+  }
+  .button_cont2{
+	width: 10px;
+	float: left;
+	left:45%;
+	top:70%;
+	position: absolute;
+}

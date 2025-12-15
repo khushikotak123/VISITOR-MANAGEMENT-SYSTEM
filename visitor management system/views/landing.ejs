@@ -1,0 +1,34 @@
+<% include header %>
+
+<div class="container">
+<header class="jumbotron">
+    <div class="container">
+    <h1 align="center">Entry Management System</h1>
+</div>
+</header>
+<% if(flag==1){%>             <!--   Success/Error Messages -->
+<div class="alert alert-success">
+        <strong>Success!</strong> You have been successfuly checked in.
+</div>
+<%}%>
+
+<% if(flag==2){%>
+    <div class="alert alert-warning">
+            <strong>Something went wrong!</strong> This user is already checkedin.
+    </div>
+ <%}%>   
+
+ <% if(flag==3){%>
+<div class="alert alert-success">
+        <strong>Thank you for visiting!</strong> You have been successfuly checked out.
+</div>
+<%}%> 
+<p>
+    <div class="button_cont1"  align="center"><a class="example_f" href="\checkin" ><span>&nbsp;&nbsp;Checkin&nbsp;&nbsp;</a></div>
+</p>
+<p>
+    <div class="button_cont2"  align="center"><a class="example_f" href="\checkout" ><span>Checkout</a></div>
+</p>
+</div>
+
+<% include footer %>

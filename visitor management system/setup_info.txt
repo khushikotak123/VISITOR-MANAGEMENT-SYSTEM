@@ -1,0 +1,28 @@
+1.  Install MongoDB and NodeJS.
+
+2.  Clone the assignment using
+	git clone https://github.com/Pulkit287/Innovaccer-Summergeeks-Assignment.git
+
+3.  Install dependencies after entering the project directory:
+	cd Innovaccer-Summergeeks-Assignment
+	npm install
+
+4.  Then you'll have to update the email user and password in app.js -
+    Add Email account for sending E-mail via node-mailer for example
+
+	user: 'ENTER E-MAIL ID',                                
+	pass: 'ENTER YOUR PASSWORD'
+
+    and from variable in sndMail() function in app.js used to send mails-
+
+	from: 'ENTER E-MAIL ID'
+
+    finally, update your FAST2SMS API authorization key in app.js in sndMsg() function for sending sms through fast2sms.
+
+    Add details for sending message's via 'Fast2sms' API for example
+
+	"authorization": "ENTER YOUR AUTHORIZATION KEY" 
+
+5.  Run mongod in seperate terminal and node app.js in seperate terminal with the project.
+
+6.  Then go to localhost:3000 .
